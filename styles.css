@@ -157,3 +157,13 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr; /* Uma coluna para telas menores */
+    }
+  
+    .descricao__titulo {
+      font-size: 32px; /* Reduz o tamanho da fonte */
+    }
+  }
